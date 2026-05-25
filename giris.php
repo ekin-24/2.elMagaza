@@ -18,12 +18,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         header("Location: index.php");
         exit();
     } else {
-        header("Location: index.php?hata=giris");
-        exit();
+        $hata = "E-posta adresiniz veya şifreniz hatalı!";
     }
-} else {
-    header("Location: index.php");
-    exit();
 }
 ?>
 <!DOCTYPE html>

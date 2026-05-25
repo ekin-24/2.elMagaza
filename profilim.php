@@ -89,7 +89,7 @@ try {
     $mesajTur = "error";
 }
 
-
+try {
     $satilanlar = $db->prepare("
         SELECT u.*, uy.uyeAd as aliciAd, uy.uyeSoyad as aliciSoyad, o.odemeTutari, o.satildi, s.satisId
         FROM satislar s
