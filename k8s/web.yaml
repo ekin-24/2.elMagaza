@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: web
-        image: gcr.io/fluted-equinox-479307-p6/ikinci-el-web:latest
+        image: gcr.io/fluted-equinox-497307-p6/ikinci-el-web:latest
         ports:
         - containerPort: 80
 ---
