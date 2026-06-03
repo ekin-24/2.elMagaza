@@ -112,7 +112,7 @@ include 'baglan.php';
                 </section>
             <?php else: ?>
                 <section class="welcome">
-                    <h2>İkinci El Eşyalarınızı Alın ve Satın</h2>
+                    <h2>İkinci El Eşyalarınızı Güvenle Alın ve Satın</h2>
                     <p>Hemen üye olun ve alışverişe başlayın!</p>
                 </section>
             <?php endif; ?>
