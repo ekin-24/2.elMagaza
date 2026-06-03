@@ -17,7 +17,7 @@ include 'baglan.php';
             <h1>2.El Alım Satım</h1>
             <?php if(isset($_SESSION['uyeId'])): ?>
                 <nav>
-                    <a href="index.php">Sayfa</a>
+                    <a href="index.php">Ana Sayfa</a>
                     <a href="urunlerim.php">Ürünlerim</a>
                     <a href="urun-ekle.php">Ürün Ekle</a>
                     <a href="profilim.php">Profilim</a>
@@ -112,7 +112,7 @@ include 'baglan.php';
                 </section>
             <?php else: ?>
                 <section class="welcome">
-                    <h2>İkinci El Eşyalarınızı Güvenle Alın ve Satın</h2>
+                    <h2>İkinci El Eşyalarınızı Alın ve Satın</h2>
                     <p>Hemen üye olun ve alışverişe başlayın!</p>
                 </section>
             <?php endif; ?>
