@@ -14,7 +14,7 @@ include 'baglan.php';
 <body>
     <div class="container">
         <header>
-            <h1>2.El Alım Satım Sitesi</h1>
+            <h1>2.El Alım Satım</h1>
             <?php if(isset($_SESSION['uyeId'])): ?>
                 <nav>
                     <a href="index.php">Ana Sayfa</a>
