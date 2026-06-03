@@ -1,2 +1,0 @@
-http://34.122.171.230/index.php
-https://github.com/ekin-24/2.elMagaza
